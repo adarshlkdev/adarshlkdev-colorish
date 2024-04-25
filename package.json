@@ -1,0 +1,35 @@
+{
+  "name": "adarshlkdev-colorish",
+  "version": "1.0.0",
+  "description": "A liberary for the colors of your console messages for easy debugging",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adarshlkdev/adarshlkdev-colorish.git"
+  },
+  "keywords": [
+    "console log colors",
+    "console colors",
+    "console log",
+    "colors",
+    "colorish",
+    "adarshlkdev"
+  ],
+  "author": "Adarsh L K <erlkadarsh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adarshlkdev/adarshlkdev-colorish.git/issues"
+  },
+  "homepage": "https://github.com/adarshlkdev/adarshlkdev-colorish.git#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
