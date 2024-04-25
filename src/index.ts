@@ -9,6 +9,6 @@ export class Log{
             console.log(`%c ${message}`, 'color: yellow')
     }
         static info(message: string){
-            console.log(`%c ${message}`, 'color: cyan ; background: yellow')
+            console.log(`%c ${message}`, 'color: cyan ; background: black')
     }
 }
